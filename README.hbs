@@ -1,9 +1,59 @@
 <h1>p5.range</h1>
-<p>An add-on for <a href="https://p5js.org">p5.js</a> with a range function, offering
-an alternative way to repeat steps from standard <a href="https://p5js.org/reference/#/p5/for">for</a>
-and <a href="https://p5js.org/reference/#/p5/while">while</a> loops.</p>
+<p>
+  An add-on for <a href="https://p5js.org">p5.js</a> with a range function,
+  offering an alternative way to repeat steps from standard
+  <a href="https://p5js.org/reference/#/p5/for">for</a> and
+  <a href="https://p5js.org/reference/#/p5/while">while</a> loops.
+</p>
 
-<p>The function's design aims to simplify syntax and prevent infinite loops. It works
-similarly to <a href="https://www.w3schools.com/python/ref_func_range.asp">Python's range function</a>.</p>
+<p>
+  The function's design aims to simplify syntax and prevent infinite loops. It
+  works similarly to
+  <a href="https://www.w3schools.com/python/ref_func_range.asp"
+    >Python's range function</a
+  >.
+</p>
 
-{{>main}}
+<h2>Installation</h2>
+<h3>p5 Editor Template</h3>
+<p>
+  You can use
+  <a href="https://editor.p5js.org/cfoss/sketches/XGiDO1YgW" target="_blank"
+    >this template</a
+  >
+  by signing in to the editor, opening the template, and clicking File &gt;
+  Duplicate.
+</p>
+
+<h3>Script Tag</h3>
+<p>
+  On an existing p5 sketch, you can add the range add-on by editing the
+  index.html file and adding the following script tag:
+</p>
+<code>
+  &lt;script
+  src="https://cdn.jsdelivr.net/gh/calebfoss/p5.range@latest/p5.range.js"&gt;&lt;/script&gt;
+</code>
+<h4>Example index.html</h4>
+
+<code>
+  <pre>
+    &lt;!DOCTYPE html&gt;
+    &lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+        &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.js&quot;&gt;&lt;/script&gt;
+        &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/addons/p5.sound.min.js&quot;&gt;&lt;/script&gt;
+        &lt;script src=&quot;https://cdn.jsdelivr.net/gh/calebfoss/p5.range@latest/p5.range.js&quot;&gt;&lt;/script&gt;
+        &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;style.css&quot;&gt;
+        &lt;meta charset=&quot;utf-8&quot; /&gt;<br/>
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;main&gt;
+        &lt;/main&gt;
+        &lt;script src=&quot;sketch.js&quot;&gt;&lt;/script&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;
+</pre>
+</code>
+
+{{> main}}
