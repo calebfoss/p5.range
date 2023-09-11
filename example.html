@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.js"></script>
+    <script src="./p5.range.js"></script>
+</head>
+
+<body>
+    <script>
+        function setup() {
+            createCanvas(400, 400);
+
+            fill(64, 255, 128);
+            for (let i of range(100)) {
+                circle(random(width), random(height), random(50));
+            }
+
+            fill(64, 128, 255);
+            for (let x of range(25, width, 50)) {
+                circle(x, height / 2, 50);
+            }
+
+            describe("100 green circles with random sizes and positions " +
+                "and a row of blue circles spanning the width of " +
+                "the canvas halfway down the canvas.");
+        }
+    </script>
+</body>
+
+</html>

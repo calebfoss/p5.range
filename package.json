@@ -1,0 +1,27 @@
+{
+  "name": "p5.range",
+  "version": "0.0.0",
+  "description": "Add-on for p5.js to create numerical ranges for iteration.",
+  "main": "p5.range.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calebfoss/p5.range.git"
+  },
+  "keywords": [
+    "creative",
+    "coding",
+    "iteration"
+  ],
+  "author": "Caleb Foss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calebfoss/p5.range/issues"
+  },
+  "homepage": "https://github.com/calebfoss/p5.range#readme",
+  "devDependencies": {
+    "jsdoc-to-markdown": "^8.0.0"
+  }
+}
