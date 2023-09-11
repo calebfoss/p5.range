@@ -52,7 +52,7 @@ p5.prototype.range = function (n1, n2, increment) {
     );
   let value = start;
   function next() {
-    done = Math.abs(value) - Math.abs(stop) >= 0;
+    done = value === stop || value - stop > 0 === increment > 0;
     const result = {
       value,
       done,
